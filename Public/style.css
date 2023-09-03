@@ -1,0 +1,25 @@
+/*This sets the main background color*/
+body{
+    background-color: lightskyblue;
+}
+/*This sets the project background color*/
+body[value="1"]{
+    background-color: orange;
+}
+/*This sets the .center class to align text*/
+.center{
+    text-align: center;
+}
+/*This creates a division on the page and centers images and links */
+div[value="div-center"] {
+    text-align: center;
+}
+/*This creates a division on the page and adds a border  */
+div[value="round"] {
+    border-style: ridge;
+    border-radius: 5px;    
+}
+/*This sets the resume background color*/
+body[value="2"]{
+    background-color: white;
+}
