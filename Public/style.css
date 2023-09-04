@@ -23,3 +23,33 @@ div[value="round"] {
 body[value="2"]{
     background-color: white;
 }
+/*This sets the frame around the profile pic*/
+.shape-outer {
+    display: flex;
+    flex-shrink: 0;
+    height: calc(150px + 4vw);
+    width: calc(150px + 4vw);
+    margin: 25px 650px;
+    background-image: linear-gradient(to bottom right, #0715F5, #464866, #14DB80);
+}
+
+.shape-inner {  
+    height: calc(130px + 4vw);
+    width: calc(130px + 4vw);
+    background: url("../assets/image/ProfilePic.jpg") no-repeat center;
+    background-size: cover;
+    margin: auto;
+}
+
+.shape-inner1 {  
+    height: calc(130px + 4vw);
+    width: calc(130px + 4vw);
+    background: url("./assets/image/ProfilePic.jpg") no-repeat center;
+    background-size: cover;
+    margin: auto;
+}
+
+.circle {
+    -webkit-clip-path: circle(50% at 50% 50%);
+        clip-path: circle(50% at 50% 50%);
+}
