@@ -13,6 +13,7 @@ body[value="1"]{
 /*This creates a division on the page and centers images and links */
 div[value="div-center"] {
     text-align: center;
+    margin-left: 45%;
 }
 /*This creates a division on the page and adds a border  */
 div[value="round"] {
@@ -52,4 +53,8 @@ body[value="2"]{
 .circle {
     -webkit-clip-path: circle(50% at 50% 50%);
         clip-path: circle(50% at 50% 50%);
+}
+.divsettings{
+    margin-left: 45%;
+    text-align: center;
 }
