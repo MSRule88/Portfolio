@@ -3,52 +3,62 @@
 
 <head> 
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Michael Shane Rule Portfolio</title>
-    <link
-    rel="stylesheet"
-    href="./Public/style.css"
-    >
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" 
+    integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="./Public/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Gruppo&family=Kanit&family=Open+Sans&display=swap" rel="stylesheet">
+    <style>
+        
+    </style>
 </head>
 
-<body>
-    <h1 class="center">Michael Shane Rule Portfolio</h1>
-    <div value="div-center" class="shape-outer circle">
-        <div class="shape-inner circle"></div>
+<body class="backimg">
+    
+    <header id="header" class="gradient-background">
+        <div class="d-flex flex-column">
+    
+          <div class="profile">
+            <img src="./assets/image/ProfilePic.jpg" alt="ProfilePic" class="rounded-circle-img" />
+            <h1 class="text-light"><a href="index.html">Michael Shane Rule</a></h1>
+            <h2 class="text-light"><a href="index.html">Rodrick Artistic Design</a></h2>
+        </div>
+    
+          <nav id="navbar" class="nav-menu navbar">
+            <ul>
+              <li><a href="./index.html" class="nav-link scrollto active"><i class="bi bi-lightning-charge"></i> <span>Home</span></a></li>
+              <li><a href="./public/AboutMe.html" class="nav-link scrollto"><i class="bi bi-at"></i> <span>About</span></a></li>
+              <li><a href="./public/Resume.html" class="nav-link scrollto"><i class="bi bi-file-text"></i> <span>Resume</span></a></li>
+              <li><a href="./public/Projects.html" class="nav-link scrollto"><i class="bi bi-clipboard2"></i> <span>Projects</span></a></li>
+              <li><a href="./public/ContactMe.html" class="nav-link scrollto"><i class="bi bi-chat-dots"></i> <span>Contact</span></a></li>
+            </ul>
+          </nav>
+        </div>
+      </header>
+
+      <div class="divcontainer">
+        <div class="maintext">
+            <ui class="mainlist">
+                <li>Engineer</li>
+                <li>Designer</li>
+                <li>Devoloper</li>
+                <li>Artist</li>
+            </ui>
+            <a href="./public/AboutMe.html" class="btn btn-secondary">Learn More</a>
+        </div>
+
       </div>
-    <hr />
-    <div value="round">
-        <h2 class="center"><a href="./Public/Resume.html"> Resume</a> </h2>
-        <hr/>
-        <p>Looking for a position as a Software Engineer with a focus on integration with embedded software and electronics. </p>
-    </div>
-    <div value="round">
-        <h2 class="center"><a href="./Public/Projects.html"> Projects</a> </h2>
-        <p>Click the link above to take a look at my list of past and ongoing projects. </p>
-    </div>
-    <div value="round">
-        <h2 class="center"><a href="./Public/ContactMe.html"> Contact Me</a> </h2>
-        <p>Please feel free to reach out to me for any questions, collaborations or job opportunities.</p>
-    </div>
-    <div value="round">
-        <h2 class="center"><a href="./Public/AboutMe.html"> About Me</a> </h2>
-        <p>Just a little about myself.</p>
-    </div>
-   <br/>
-   <br/>
-   <br/>
-    <hr/>
-    <footer>
-        <center><a href="./Public/Resume.html">Resume</a> <a href="./Public/AboutMe.html">About Me</a> <a href="./Public/ContactMe.html">Contact Info</a> <a href="./Public/Projects.html">Projects</a>
-            <br/>
-            <small>
-              Copyright © 2023 RodrickArtisticDesign. All Rights Reserved.
-            </small>
-        </center>
+      <footer id="footer">
+        <div class="container">
+          <div class="copyright">
+            © Copyright <strong><span>RodrickArtisticDesign</span></strong>
+          </div>
+          
+        </div>
       </footer>
 </body>
-
-
-
-
-
 </html>
